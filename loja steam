@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameStore - Loja de Jogos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="logo">GameStore</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cart.html">Carrinho</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="login.html" id="login-btn">Login</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h2>Promoções Especiais</h2>
+</div>
+
+<main>
+    <h2 class="section-title">Jogos em Destaque</h2>
+    <div class="game-grid" id="game-list"></div>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
